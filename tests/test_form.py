@@ -45,4 +45,4 @@ def test_empty_form_shows_validation_error(browser: webdriver.Chrome) -> None:
 def test_submit_button_text(browser: webdriver.Chrome) -> None:
     """Проверяет текст кнопки отправки."""
     button = browser.find_element(By.ID, "submit-btn")
-    assert button.text == "Отправить форму"
+    assert button.text == "Отправить"
